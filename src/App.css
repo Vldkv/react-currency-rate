@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+.header-text{
+  color: #FFF;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -22,6 +27,16 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+
+
+.footer-text {
+  top: 16px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .App-link {
